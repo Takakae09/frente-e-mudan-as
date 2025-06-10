@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--cor-2);;
+  font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-6);
+}
+
+:root {
+  --cor-1: #06141B;
+  --cor-2: #11212D;
+  --cor-3: #253745;
+  --cor-4: #4D96A6;
+  --cor-5: #9BA8AB;
+  --cor-6: #CCD0CF;
+  --cor-7: #010300;
+}
+
+#menu{
+  background-color: var(--cor-3);
+  
+}
+  #menu li , a{
+      position: relative;
+      display: inline-block;
+      left:50px;
+      bottom:15px;
+      padding: 0px 20px;
+      font-size:20px;
+      
+    }
+
+a{
+  text-decoration: none;
+  color: var(--cor-6);
+}
+
+#menu li a:hover{
+  color: var(--cor-4);
+}
+
+
+
+#logo1{
+  width:120px;
+  margin-top:30px;
+  border-radius: 70px;
+  background-color: var(--cor-6);
+ 
+}
+
+
+.title-container {
+display: flex;
+flex-direction: row-reverse; /* <- coloca a imagem na direita */
+align-items: center;
+justify-content: center;
+gap: 40px;
+margin-top: 300px;
+margin-right:300px;
+flex-wrap: wrap;
+}
+
+#logo2 {
+width: 250px;
+margin-left:500px;
+height: auto;
+border-radius: 50px;
+animation: pular 3s ease-in-out infinite;
+box-shadow: 
+rgba(255, 255, 255, 0.4) 5px 5px,
+rgba(255, 255, 255, 0.3) 10px 10px,
+rgba(255, 255, 255, 0.2) 15px 15px,
+rgba(255, 255, 255, 0.1) 20px 20px,
+rgba(255, 255, 255, 0.05) 25px 25px;
+
+}
+
+.sub-title{
+font-size:43px;
+color: white;
+margin: 0;
+line-height: 1.2;
+text-align: left;
+margin-left: 100px;
+}
+
+.span{
+color:#159057;
+}
+
+.btn-orcamento{
+margin-left:215px;
+margin-top:50px;
+padding:22px 50px;
+background-color: #159057;
+color: white;
+border-radius: 10px;
+border: none;
+
+}
+.btn-orcamento:hover {
+background-color: #09f056;
+transform: scale(1.05);
+}
+
+#btn-numero{
+margin-left:650px;
+margin-bottom: 55px;
+padding:20px 30px 20px 30px;
+background-color: #159057;
+color: white;
+border-radius: 10px;
+border: none;
+
+}
+
+#btn-numero:hover {
+background-color: #09f056;
+transform: scale(1.05);
+}
+
+
+@keyframes pular{
+0%{
+  transform: translateY(0);
+}
+50%{
+  transform: translateY(-20px);
+}
+100%{
+  transform: translateY(0);
+}
+}
+
+
+/* --- section class="conteudo-1 --- */
+
+.conteudo-1{
+background-color: var(--cor-2);
+padding: 20px;
+}
+
+.conteudo-2{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+#btn-02{
+background-color: #c2fbd7;
+border-radius: 100px;
+box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: green;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+margin-top: 200px;
+margin-bottom:100px;
+margin-left: 200px;
+}
+
+#btn-02:hover {
+box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+
+#title-2{
+margin-top:10px;
+margin-left: 200px;
+font-size:60px;
+color: var(--cor-6);
+}
+
+p{
+margin-top:20px;
+margin-left: 200px;
+margin-bottom:10px;
+font-size:25px;
+color: var(--cor-6);
+}
+
+#img-frete{
+width: 451px;
+height: 300px;
+margin-top: 30px;
+margin-right: 100px;
+border-radius: 10px;
+}
+
+.check-green{
+width: 20px;
+height:20px;
+margin-right:20px;
+}
+
+.conteudo-3  li{
+list-style: none;
+color: var(--cor-6);
+font-size: 15px;
+margin-left:190px; 
+margin-top: 15px; 
+padding: 0px 0px 20px;                                                        
+}
+
+
+/* --- Equipe Especializada em Fretes e Mudanças --- */
+
+.equipe{
+  background-color: var(--cor-3);
+  padding:40px 20px;
+  text-align: center;
+}
+
+.equipe-caixas{
+  display: flex;
+  justify-content: center;
+}
+
+.caixa{
+  position:relative ;
+  width:90%;
+ max-width:  800px;
+  overflow: hidden;
+  border: 1px solid var(--cor-6);
+  border-radius: 12px;
+  padding: 10px;
+  background-color: var(--cor-5);
+}
+
+.carrossel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  gap: 10px;
+}
+
+.carrossel img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.seta-esquerda {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background:var(--cor-4);
+  color: var(--cor-6);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+
+.seta-direita{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background:var(--cor-4);
+  color:var(--cor-6);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+
+.seta-esquerda {
+  left: 10px;
+}
+
+.seta-direita {
+  right: 10px;
+}
+
+.rodape-conteudo{
+  background-color: var(--cor-2);
+  padding:40px 20px;
+}
+
+.rodape-logo h3 {
+  text-align: center;
+  padding: 30px 20px;
+  font-size:50px;
+  margin-right:10px;
+}
+
+#pe{
+  text-align: center;
+  padding: 30px 20px;
+  font-size:20px;
+  color: white;
+  margin-right:200px;
+}
+
+.rede-social h3{
+  text-align: center;
+  font-size:30px;
+
+}
+
