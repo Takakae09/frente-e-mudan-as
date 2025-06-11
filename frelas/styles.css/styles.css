@@ -10,6 +10,10 @@ body{
     color: var(--cor-6);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --cor-1: #06141B;
   --cor-2: #11212D;
@@ -24,19 +28,24 @@ body{
   background-color: var(--cor-3);
   
 }
-  #menu li , a{
-      position: relative;
-      display: inline-block;
-      left:50px;
-      bottom:15px;
-      padding: 0px 20px;
-      font-size:20px;
-      
-    }
+#menu {
+  background-color: var(--cor-3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 80px;
+  list-style: none;
+}
+#menu li{
+ margin: 0 20px;
+}
 
-a{
+#menu a{
   text-decoration: none;
   color: var(--cor-6);
+  font-size: 20px;
+  padding:8px 16px;
 }
 
 #menu li a:hover{
@@ -46,9 +55,8 @@ a{
 
 
 #logo1{
-  width:120px;
-  margin-top:30px;
-  border-radius: 70px;
+  height: 60px;
+  border-radius: 50px;
   background-color: var(--cor-6);
  
 }
@@ -109,13 +117,13 @@ transform: scale(1.05);
 }
 
 #btn-numero{
-margin-left:650px;
-margin-bottom: 55px;
-padding:20px 30px 20px 30px;
 background-color: #159057;
 color: white;
-border-radius: 10px;
 border: none;
+padding: 10px 20px;
+font-size:16px;
+border-radius: 8px;
+cursor: pointer;
 
 }
 
@@ -319,3 +327,26 @@ padding: 0px 0px 20px;
 
 }
 
+
+
+.wpp1{
+width:20px;
+margin-bottom:2px;
+height:20px;
+margin-right:20px;
+}
+
+.wpp2{
+  width:20px;
+  padding-top:1px;
+  margin-bottom:2px;
+  height:20px;
+  margin-right:20px;
+  }
+
+  .WhatsApp-flutuante{
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    width: 260px;
+  }
