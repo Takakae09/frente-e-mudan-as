@@ -102,35 +102,24 @@ color:#159057;
 }
 
 .btn-orcamento{
-margin-left:215px;
-margin-top:50px;
-padding:22px 50px;
-background-color: #159057;
-color: white;
-border-radius: 10px;
-border: none;
-
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  gap: 8px; /* Espaço entre imagem e texto */
+  background-color: #25D366; /* Verde WhatsApp */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left:220px;
 }
 .btn-orcamento:hover {
 background-color: #09f056;
 transform: scale(1.05);
 }
 
-#btn-numero{
-background-color: #159057;
-color: white;
-border: none;
-padding: 10px 20px;
-font-size:16px;
-border-radius: 8px;
-cursor: pointer;
 
-}
-
-#btn-numero:hover {
-background-color: #09f056;
-transform: scale(1.05);
-}
 
 
 @keyframes pular{
@@ -329,12 +318,28 @@ padding: 0px 0px 20px;
 
 
 
-.wpp1{
-width:20px;
-margin-bottom:2px;
-height:20px;
-margin-right:20px;
+#btn-numero {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  gap: 8px; /* Espaço entre imagem e texto */
+  background-color: #25D366; /* Verde WhatsApp */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
+
+#btn-numero:hover {
+  background-color: #128C7E; /* Verde mais escuro */
+}
+
+.wpp1 {
+  width: 20px;
+  height: 20px;
+}
+
 
 .wpp2{
   width:20px;
